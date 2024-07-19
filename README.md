@@ -1,5 +1,5 @@
-DATA ANALYSIS COFFEE SALES PROJECT 
-# Coffee Sales Project
+
+# COFFEE SALES PROJECT USING EXCEL
 
 ## Overview
 This project involves using Excel in analyzing coffee sales using three distinct tables:
