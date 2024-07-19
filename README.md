@@ -2,7 +2,7 @@
 # Coffee Sales Project
 
 ## Overview
-This project involves analyzing coffee sales using three distinct tables:
+This project involves using Excel in analyzing coffee sales using three distinct tables:
 
 1. **Order Table** with columns:
    - Order ID
