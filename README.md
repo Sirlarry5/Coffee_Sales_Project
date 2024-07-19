@@ -2,7 +2,7 @@
 # Coffee Sales Project
 
 ## Overview
-This project involves analyzing coffee sales with Excel Spreadsheet using three distinct tables:
+This project involves analyzing coffee sales using three distinct tables:
 
 1. **Order Table** with columns:
    - Order ID
@@ -31,24 +31,45 @@ This project involves analyzing coffee sales with Excel Spreadsheet using three 
    - Price per 100kg
    - Profit
 
+## Project Tasks
+1. **Total Sales Over Time:**
+   - Created a pivot table with Order Date in rows and Sales in values.
+   - Used a line chart to visualize total sales over time.
+  
+2. **Top 4 Cities with Highest Sales:**
+   - Created a pivot table with City in rows and Sales in values.
+   - Used a bar chart to visualize the top 4 cities with the highest sales.
+  
+3. **Country with the Highest Sales:**
+   - Created a pivot table with Country in rows and Sales in values.
+   - Used a bar chart to visualize sales by country.
+  
+4. **Top 5 Customers Who Purchase Coffee:**
+   - Created a pivot table with Customer Name in rows and Sales in values.
+   - Used a bar chart to visualize the top 5 customers.
+  
+5. **Top 5 Coffee Type Sales in Different Countries:**
+   - Created a pivot table with Coffee Type in rows, Country in columns, and Sales in values.
+   - Used a bar chart to visualize coffee type sales by country.
+
 ## Data Cleaning Process
-To effectively analyze the data, new columns was created in the Order table, derived from the Customer and Product tables:
+To effectively analyze the data, new columns were created in the Order table, derived from the Customer and Product tables:
 
 - **New Columns in the Order Table:**
-   - Customer Name
-   - Email
-   - Country
-   - Coffee Type
-   - Roast Type
-   - Size
-   - Unit Price
-   - Sales
-   - Coffee Type Name
-   - Roast Type Name
-   - Loyalty Card
+  - Customer Name
+  - Email
+  - Country
+  - Coffee Type
+  - Roast Type
+  - Size
+  - Unit Price
+  - Sales
+  - Coffee Type Name
+  - Roast Type Name
+  - Loyalty Card
 
 ## Data Gathering
-To populate these new columns, formulas such as XLOOKUP and INDEX was used.
+To populate these new columns, formulas such as XLOOKUP and INDEX were used.
 
 - **Populating Customer Data:**
   - **Customer Name:**
@@ -105,15 +126,21 @@ Used Excel's "Remove Duplicates" feature to ensure data integrity.
 Converted the data to a table using `Ctrl + T` and named it "ORDERS".
 
 ## Data Visualization
+
+### Detailed Steps for Data Visualization
+
 - **Creating Pivot Tables and Charts:**
   - **Total Sales Over Time:**
     - Dragged Order Date into rows, Coffee Type Name into columns, and Sales into values.
     - Used a line chart for visualization.
+  
   - **Country Bar Chart:**
     - Added Sales to values and Country to rows.
     - Formatted as a bar chart to compare sales across countries.
+  
   - **Top 5 Customers, Sales by Country, Coffee Type Sales by Country:**
     - Used bar charts for clear comparison.
+  
   - **Top 4 Cities Sales:**
     - Used a pie chart to highlight proportions and relationships.
 
