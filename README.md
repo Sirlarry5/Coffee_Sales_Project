@@ -1,4 +1,4 @@
-(https://lh6.googleusercontent.com/KjlLUbe7iVrKbuCz5Usmyes5NVU2Dtr6W5OiResc9WXMTkJQoKxzH1Kpved0Z4ZqkNx6eew004HRCBsOTrU7hgA)
+
 # COFFEE SALES PROJECT USING EXCEL
 
 ## Overview
